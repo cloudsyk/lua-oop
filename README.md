@@ -1,19 +1,19 @@
-# lua oop framework.
+# lua-oop framework.
 
 1. multi inheritance.
 2. easy to use.
 3. used in productions for a long time.
 
-# usage:
+# Usage:
 
-## common
+## Common
 
 -- the main file:
 ```
 oop = require 'oop.include'
 ```
 
-## a class
+## A class
 
 -- a class file  Play.lua:
 
@@ -35,7 +35,7 @@ return Play
 local play = Play:new() -- no need to require Play.lua
 ```
 
-## oop.pacakge usage
+## Usage of oop.pacakge
 
 -- directory can be used as package.
 -- the main file:
@@ -54,10 +54,10 @@ return Energy
 local energy = logic.Energy:new()
 ```
 
-# examples
+# Examples
 
 
-test examples in command line
+Test examples in command line:
 ```
 cd examples && lua main.lua
 ```
